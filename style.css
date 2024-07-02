@@ -35,39 +35,59 @@
 }
 
 .bxs-home{
-    color: white;
+    color: rgb(128, 126, 126);
     font-size: 30px;
     position: absolute;
     top: 90px;
     left: 30px;
-  
+}
+
+.bxs-home:hover{
+    color: white;
+    cursor: pointer;
+    transition: 1s;
 }
 
 #home-sec{
-    color: white;
+    color: rgb(156, 154, 154);
     position: absolute;
-    top: 95px;
-    left: 70px ;
+    top: 10px;
+    left: 40px;
+    font-size: 18px;
+    font-weight:400;
+}
+#home-sec:hover{
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#search-sec{
+    color: rgb(156, 154, 154);
+    position: absolute;
+    top: 6px;
+    left: 40px ;
     font-size: 18px;
     font-weight:400;
 }
 
-#search-sec{
+#search-sec:hover{
     color: white;
-    position: absolute;
-    top: 145px;
-    left: 70px ;
-    font-size: 18px;
-    font-weight:400;
+    cursor: pointer;
+    transition: 1s;
 }
     
 .bx-search-alt-2{
-    color: white;
+    color:  rgb(156, 154, 154);
     font-size: 30px;
     position: absolute;
     top: 145px;
     left: 30px;
-  
+}
+.bx-search-alt-2:hover{
+    color: white;
+    cursor: pointer;
+    transition: 1s;
 }
 
 
@@ -118,6 +138,11 @@
     padding: 0;
     z-index: 10;
     
+}
+
+.bx-plus:hover{
+     color: white;
+     cursor: pointer;
 }
 
 .playlist{
@@ -183,7 +208,7 @@
 }
 
 .links{
-    height: 200px;
+    height: 185px;
     width: 100%;
     background-color:rgb(34, 32, 32); ;
 }
@@ -223,5 +248,6 @@
     height: 100vh;
     width: 80%;
     border: 1px solid rgb(34, 33, 33);
+    background-color: black;
     
 }
