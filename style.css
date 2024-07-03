@@ -251,3 +251,53 @@
     background-color: black;
     
 }
+
+.navigation{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(34, 32, 32);
+}
+
+.arrows{
+    display: flex;
+    gap: 20px;
+    position: relative;
+
+    
+}
+
+#arrow1{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+}
+
+.arrows>button{
+    background-color: rgb(15, 14, 14);
+}
+
+
+#arrow2{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.bx-chevron-left{
+    color:rgb(113, 108, 108);
+    font-size: 38px;
+}
+
+.bx-chevron-right{
+    color:rgb(113, 108, 108);
+    font-size: 38px;
+}

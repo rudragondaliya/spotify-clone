@@ -23,12 +23,12 @@
         
     
         <div class="side-bar container p-3 col-lg-3 col-xl-3 col-xxl-3 col-md-3 col-sm-4 col-xs-4">
-
+        
           <!-- ---------------------------------H O M E  A N D  S E A R C H  ------------------------------------->
           <div class="home-search container-fluid ">
           <img src="./images/spotify-icon-spotify-logo-spotify-symbol-logo-set-free-vector-removebg-preview.png" alt="" height="100px">
-         <i class='bx bxs-home'> <span id="home-sec">Home</span></i>  
-         <i class='bx bx-search-alt-2' > <span id="search-sec">Search</span></i> 
+         <a href="index.html"><i class='bx bxs-home'><span id="home-sec">Home</span></i></a> 
+        <a href=".search-page"> <i class='bx bx-search-alt-2' > <span id="search-sec">Search</span></i>   </a>
           </div>
 
 
@@ -84,21 +84,43 @@
 
         <!-------------------------------- M A I N - C O N T A I N E R ----------------------------->
         
-        <div class="main-container container-fluid col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-8 col-xs-8">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
+        <div class="main-container container-fluid col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-8 col-xs-8 gx-0">
 
               <!----------------------------- N A V I G A T I O N ------------------------------>
               <div class="navigation">
-                
+                <div class="arrows">
+                   <button id="arrow1"><i class='bx bx-chevron-left'></i></button>
+                   <button id="arrow2"><i class='bx bx-chevron-right' ></i></button>
+                </div>
               </div>
             </div>
+
+           <div class="search-page">
+            <h1>search</h1>
+           </div>
+
+           <div class="podcast-page">
+            <h1>podacast</h1>
+           </div>
+
+           <div class="sign-page">
+            <h1>sign-in</h1>
+           </div>
+
+           <div class="login-page">
+            <h1>login</h1>
+           </div>
+
+           <div class="langauge-page">
+            <h1>choose a language</h1>
+           </div>
+
+
           </div>
 
-        </div>
     
       
-    </div>
+
   
 
     <script src="./script.js"></script>
