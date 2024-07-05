@@ -199,7 +199,7 @@
 
 }
 
-.podcast>button{
+.podcast>a>button{
     margin-left: 20px;
     padding: 10px;
     background-color: white;
@@ -227,7 +227,7 @@
     text-decoration: none;
 }
 
-.links>button{
+a>button{
     height: 40px;
     color: white;
     border-radius: 20px;
@@ -237,8 +237,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6px
+    gap: 6px;
 }
+
 
 .links>button:hover{
     border: 1px solid white;

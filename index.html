@@ -27,7 +27,7 @@
           <!-- ---------------------------------H O M E  A N D  S E A R C H  ------------------------------------->
           <div class="home-search container-fluid ">
           <img src="./images/spotify-icon-spotify-logo-spotify-symbol-logo-set-free-vector-removebg-preview.png" alt="" height="100px">
-         <a href="#home-search"><i class='bx bxs-home'><span id="home-sec">Home</span></i></a> 
+         <a href="#home-page"><i class='bx bxs-home'><span id="home-sec">Home</span></i></a> 
         <a href="#search-page"> <i class='bx bx-search-alt-2' > <span id="search-sec">Search</span></i>   </a>
           </div>
 
@@ -53,7 +53,7 @@
              <div class="podcast container">
               <p>let's find some podcast to follow</p>
               <h6>we'll keep you updated on new episodes</h6>
-             <a href="#podcast-page"></a> <button>Browse podcasts</button>
+             <a href="#podcast-page"> <button>Browse podcasts</button></a>
              </div>
          </div>
 
@@ -73,7 +73,10 @@
           </span>
          </p>
         
-          <button><i class='bx bx-globe'></i>English</button>
+        
+          <a href="#language-page"><button><i class='bx bx-globe'></i>English</button></a>
+        
+          
 
          </div>
 
@@ -95,25 +98,32 @@
               </div>
             </div>
 
-           <div class="search-page">
+
+
+           <div id="home-page">
+            <h1>home</h1>
+           </div>
+
+           <div id="search-page">
             <h1>search</h1>
            </div>
 
-           <div class="podcast-page">
+           <div id="podcast-page">
             <h1>podacast</h1>
            </div>
 
-           <div class="sign-page">
+           <a href="sign-page"><div id="sign-page"></a>
             <h1>sign-in</h1>
            </div>
 
-           <div class="login-page">
+          <a href="#login-page"> <div id="login-page"></a>
             <h1>login</h1>
            </div>
 
-           <div class="langauge-page">
-            <h1>choose a language</h1>
+           <div id="language-page">
+            <h1>language-page</h1>
            </div>
+           
 
 
           </div>
@@ -123,7 +133,10 @@
 
   
 
-    <script src="./script.js"></script>
+    
+          <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -135,5 +148,6 @@
       integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
