@@ -114,7 +114,7 @@
 #lib{
     position: absolute;
     top: 20px;
-    color: rgb(122, 120, 120);
+    color: rgb(131, 130, 130);
     font-size: 20px;
     left: 70px;
     font-weight: 700;
@@ -136,8 +136,7 @@
     top: 0;
     margin: 0;
     padding: 0;
-    z-index: 10;
-    
+    z-index: 10;  
 }
 
 .bx-plus:hover{
@@ -205,12 +204,15 @@
     background-color: white;
     border-radius: 20px;
     font-weight: 700;
+    text-decoration: none;
 }
 
 .links{
     height: 185px;
     width: 100%;
     background-color:rgb(34, 32, 32); ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .links>span>a{
@@ -227,7 +229,7 @@
     text-decoration: none;
 }
 
-a>button{
+.links>a>button{
     height: 40px;
     color: white;
     border-radius: 20px;
@@ -238,6 +240,11 @@ a>button{
     justify-content: center;
     align-items: center;
     gap: 6px;
+    text-decoration: none;
+}
+
+.links>a{
+    text-decoration: none;
 }
 
 
