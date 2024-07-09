@@ -17,12 +17,12 @@
   <body>
     <!----------------------------------- H E R O - C O N T A I N E R ------------------------------------------------>
 
-    <div class="container-fluid gx-0">
+    <div class="container-fluid   gx-0">
     
         <!--------------------------------- S I D E - B A R ------------------------------------>
-        
-    
-        <div class="side-bar container p-3 col-lg-3 col-xl-3 col-xxl-3 col-md-3 col-sm-4 col-xs-4">
+        <div class="row ">
+        <div class="side-bar container  p-3 ">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-12 col-xxl-12 ">
         
           <!-- ---------------------------------H O M E  A N D  S E A R C H  ------------------------------------->
           <div class="home-search container-fluid ">
@@ -34,11 +34,13 @@
 
           <!-----------------------L I B R A R Y - S E C T I O N  -------------------------------->
 
-
+          
          <div class="library container">
           <div class="topic-lib">
-           <i class='bx bx-library'></i><span id="lib"> Your Library</span>
-          <span><i class='bx bx-plus' ></i></span>
+           <i class='bx bx-library' ></i><span id="lib" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Collapse your librabry">
+             Your Library</span>
+          
+          <span><i class='bx bx-plus' data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Create playlist or folder" ></i></span>
         </div>
 
          <!-------------------------- P L A Y L I S T - S E C T I O N  ----------------------------->
@@ -46,7 +48,7 @@
           <div class="playlist container p-4" >
            <h5>Create your first playlist</h5>
            <h6>it's easy,we'll help you</h6>
-           <button>Create Playlist</button>
+           <button data-bs-toggle="popover"  data-bs-content="Create a Playlist ">Create Playlist</button>
           </div>
 
           <!----------------------------- B R O W S E - P O D C A S T  ---------------------------------->
@@ -79,29 +81,177 @@
           
 
          </div>
-
-
+        </div>
+        </div>
         </div>
 
 
 
         <!-------------------------------- M A I N - C O N T A I N E R ----------------------------->
         
-        <div class="main-container container-fluid col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-8 col-xs-8 gx-0">
 
-            
+        <div class="row container gx-0">
+        
+        <div class="main-container container gx-0">
+          <div class="col-12 col-sm-12">
+
+            <!-------------------------------- H O M E P A G E  ------------------------------------>
 
               <div id="home-page">
                 
                   <!----------------------------- N A V I G A T I O N ------------------------------>
-              <div class="navigation">
+              <diV class="navigation">
                 <div class="arrows">
                    <button id="arrow1"><i class='bx bx-chevron-left'></i></button>
                    <button id="arrow2"><i class='bx bx-chevron-right' ></i></button>
+
+
+                   <div class="sign-btn-login container ">
+                  <a href="#sign-page"> <button id="sign-btn">sign up</button></a>
+                   <a href="#login-page"> <button id="log-btn">log in</button></a>
+                  </div>
+                </div>
+              </diV>
+
+
+              <!--------------------------- P O P U L A R  A R T I S T -------------------------------->
+
+              <div class="container content-sec">
+
+                <div class="popular-artist container">
+                  <div class="topic-name">
+                    <h4 id="pop-art">Popular artists</h4>
+                    <p id="show">show all</p>
+                  </div>
+                </div>
+                
+                <div class="row">
+                <div class="artist-display container  col-1 col-sm-1 col-md-6 col-lg-6 col-xl-12 col-xxl-12  ">
+                <div class="artist-box"></div>
+                <div class="artist-box"></div>
+                <div class="artist-box"></div>
+                <div class="artist-box"></div>
+                <div class="artist-box"></div>
+                <div class="artist-box"></div>
+                <div class="artist-box"></div>
+              </div>
+            </div>
+          </div>
+
+            <div class="container content-sec">
+
+              <div class="popular-artist container">
+                <div class="topic-name">
+                  <h4 id="pop-art">Popular allbums</h4>
+                  <p id="show">show all</p>
                 </div>
               </div>
+              
+              <div class="artist-display  container">
+              <div class="artist-box"></div>
+              <div class="artist-box"></div>
+              <div class="artist-box"></div>
+              <div class="artist-box"></div>
+              <div class="artist-box"></div>
+              <div class="artist-box"></div>
+              <div class="artist-box"></div>
+            </div>
+          </div>
+
+
+          <div class="container content-sec">
+
+            <div class="popular-artist container">
+              <div class="topic-name">
+                <h4 id="pop-art">Popular radio</h4>
+                <p id="show">show all</p>
+              </div>
+            </div>
+            
+            <div class="artist-display  container">
+            <div class="artist-box"></div>
+            <div class="artist-box"></div>
+            <div class="artist-box"></div>
+            <div class="artist-box"></div>
+            <div class="artist-box"></div>
+            <div class="artist-box"></div>
+            <div class="artist-box"></div>
+          </div>
+        </div>
+
+
+        <div class="container content-sec">
+
+          <div class="popular-artist container">
+            <div class="topic-name">
+              <h4 id="pop-art">Featured charts</h4>
+              <p id="show">show all</p>
+            </div>
+          </div>
+          
+          <div class="artist-display container">
+          <div class="artist-box"></div>
+          <div class="artist-box"></div>
+          <div class="artist-box"></div>
+          <div class="artist-box"></div>
+          <div class="artist-box"></div>
+          <div class="artist-box"></div>
+          <div class="artist-box"></div>
+        </div>
+      </div>
+
+
+      <div class="container content-sec">
+
+        <div class="popular-artist container">
+          <div class="topic-name">
+            <h4 id="pop-art">Spotify Playlists</h4>
+            <p id="show">show all</p>
+          </div>
+        </div>
+        
+        <div class="artist-display  container">
+        <div class="artist-box"></div>
+        <div class="artist-box"></div>
+        <div class="artist-box"></div>
+        <div class="artist-box"></div>
+        <div class="artist-box"></div>
+        <div class="artist-box"></div>
+        <div class="artist-box"></div>
+      </div>
+    </div>
+
+
+    <div class="container content-sec">
+
+      <div class="popular-artist container">
+        <div class="topic-name">
+          <h4 id="pop-art">Trending Episodes</h4>
+          <p id="show">show all</p>
+        </div>
+      </div>
+      
+      <div class="artist-display">
+      <div class="artist-box"></div>
+      <div class="artist-box"></div>
+      <div class="artist-box"></div>
+      <div class="artist-box"></div>
+      <div class="artist-box"></div>
+      <div class="artist-box"></div>
+      <div class="artist-box"></div>
+    </div>
+  </div>
+
+
+     
+
+
+
+
 
                </div>
+
+
     
                <div id="search-page">
                 <h1>search</h1>
@@ -111,11 +261,11 @@
                 <h1>podacast</h1>
                </div>
     
-               <a href="sign-page"><div id="sign-page"></a>
-                <h1>sign-in</h1>
+              <div id="sign-page">
+                <h1>sign-in</h1>"
                </div>
     
-              <a href="#login-page"> <div id="login-page"></a>
+               <div id="login-page">
                 <h1>login</h1>
                </div>
     
@@ -123,14 +273,17 @@
                 <h1>language-page</h1>
                </div>
                
-    
+        
     
               </div>
 
-
+              </div>
+           
             </div>
+             
+          
 
-
+    </div>
 
            
 
